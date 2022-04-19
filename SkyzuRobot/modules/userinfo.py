@@ -381,10 +381,10 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/ProjectSkyzu"
+                                "Health", url="https://t.me/xvyexy"
                             ),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/ProjectSkyzu"
+                                "Disaster", url="https://t.me/xvyexy"
                             ),
                         ],
                     ]
@@ -401,10 +401,10 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/ProjectSkyzu"
+                                "Health", url="https://t.me/xvyexy"
                             ),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/ProjectSkyzu"
+                                "Disaster", url="https://t.me/xvyexy"
                             ),
                         ],
                     ]
@@ -480,7 +480,7 @@ def set_about_me(update: Update, context: CallbackContext):
 @sudo_plus
 def stats(update: Update, context: CallbackContext):
     stats = (
-        "❂ <b>Stats For <a href='https://t.me/SkyzuShiraishiBot'>Skyzu Shiraishi</a>:</b>\n"
+        "❂ <b>Stats For <a href='https://t.me/Blezzrobot'>Blezz Robot</a>:</b>\n"
         + "\n".join([mod.__stats__() for mod in STATS])
     )
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
